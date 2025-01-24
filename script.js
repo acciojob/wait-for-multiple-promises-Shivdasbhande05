@@ -30,6 +30,7 @@ Promise.all([promise1,promise2,promise3]).then((results) => {
     });
 
     table.removeChild(row);
+    row.removeAttribute("id");
     row.innerHTML = `<td>Total</td><td>${totalTime}</td>`;
     table.appendChild(row);
 });
