@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const table = document.querySelector("#output");
 const row = document.createElement("tr");
-row.innerHTML = "<td>Loading...</td><td>Loading...</td>"
+row.innerHTML = "<td id='loading'>Loading...</td><td>Loading...</td>"
 table.appendChild(row);
 
 function promise(name){
